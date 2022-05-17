@@ -1,8 +1,10 @@
 # -*- coding:utf-8 -*-
 
-# Time:2021/10/16 16:45
+# Time:2022/04/16 23:12
 
-# Author:Chiser
+# OldAuthor:Chiser
+
+# Author:Ryen
 
 import time
 
@@ -144,7 +146,7 @@ if __name__ == '__main__':
 
     try:
 
-        api = 'IYUU10948Ta5e512b7222b98d29a59e6ac0147f3290731b744'
+        api = ''
 
         sen_url = 'https://iyuu.cn/'+api + '.send?text=PT%E7%AD%BE%E5%88%B0%E5%8A%A9%E6%89%8B_v3.0&desp=' + now_time + send_txts
 
@@ -160,7 +162,7 @@ if __name__ == '__main__':
 
     try:
 
-        token = 'ab33647de1b445178d0f75417b8a2a2a'  # 在pushplus网站中可以找到
+        token = ''  # 在pushplus网站中可以找到
 
         title = 'PT签到助手_V3.0新版'  # 改成你要的标题内容
 
